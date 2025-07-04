@@ -29,6 +29,7 @@
     <!-- 
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -38,10 +39,11 @@
     -->
 
     <table>
+        <caption>Populaçã das Unidades Federativas</caption> <!-- descriçã da tabela em cima -->
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
 
@@ -64,7 +66,7 @@
     
         <tfoot>
             <tr>
-                <th>
+                <th scope="row">
                     Total de Habitantes
                 </th>
                 <td>0000</td>
