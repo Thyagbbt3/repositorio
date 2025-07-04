@@ -6,6 +6,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* max-width: 1200px 720px;
+    min-width: 375px 667px; */
 }
 
 header {
@@ -20,6 +22,8 @@ header {
 
 header  h1 {
     font: bolder 4em "Bebas Neue", sans-serif;
+    max-width: 1200px 720px;
+    min-width: 375px 667px;
    
 }
 
@@ -56,13 +60,17 @@ main p {
     height: 500px;
     background-image: url('imagens/background001.jpg');
     background-size: cover;
+    background-position: center center;
+    max-block-size: 100%;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    box-shadow: inset 4px 6px 8px  rgba(0, 0, 0, 0.352);
 }
 
 .image p {
     padding: 5px;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.205);
+    background-color: rgba(0, 0, 0, 0.407);
 }
 
 .image2 {
@@ -73,13 +81,17 @@ main p {
     height: 500px;
     background-image: url('imagens/background002.jpg');
     background-size: cover;
+    background-position: center center;
+    max-block-size: 100%;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    box-shadow: inset 4px 6px 8px  rgba(0, 0, 0, 0.352);
 }
 
 .image2 p {
     padding: 5px;
-    color: black;
-    background-color: rgba(0, 0, 0, 0.205);
+    color: #fff;;
+    background-color: rgba(0, 0, 0, 0.404);
 }
 
 footer {
@@ -95,4 +107,5 @@ footer p {
 
 footer strong:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
