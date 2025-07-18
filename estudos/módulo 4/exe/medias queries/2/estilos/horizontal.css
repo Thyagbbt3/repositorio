@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* Aparelho na Horizontal (deitado) */
+
+body {
+    background: url('../imagens/cev-landscape.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}

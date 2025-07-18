@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* Aparelho na Vertical (Em pé) */
+
+body {
+    background: url('../imagens/cev-portrait.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
